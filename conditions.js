@@ -1,16 +1,16 @@
-console.log("Hello world!");
-const age = 21;
-const name = "Bold";
+// console.log("Hello world!");
+// const age = 21;
+// const name = "Bold";
 
-if (age < 18) {
-  console.log("under age");
-} else if (age === 21 && name === "Bold") {
-  console.log("can drink alcohol");
-} else if (age > 60) {
-  console.log("undur nastan");
-} else {
-  console.log("nothingworks");
-}
+// if (age < 18) {
+//   console.log("under age");
+// } else if (age === 21 && name === "Bold") {
+//   console.log("can drink alcohol");
+// } else if (age > 60) {
+//   console.log("undur nastan");
+// } else {
+//   console.log("nothingworks");
+// }
 // 1st
 // const number = prompt("enter a number");
 // console.log("Fizz");
@@ -52,13 +52,13 @@ if (age < 18) {
 
 // Sample numbers : 2,5
 // Output : 5
-const s = 2.5;
-const f = 5;
-if (typeof s == "number" && s > f) {
-  console.log(s);
-} else if (typeof f == "number" && f > s) {
-  console.log(f);
-}
+// const s = 2.5;
+// const f = 5;
+// if (typeof s == "number" && s > f) {
+//   console.log(s);
+// } else if (typeof f == "number" && f > s) {
+//   console.log(f);
+// }
 // Exercise 4
 
 // Write a JavaScript conditional statement to find the sign of product of three numbers.
@@ -66,97 +66,101 @@ if (typeof s == "number" && s > f) {
 
 // Sample numbers : 3, -7, 2
 // Output : The sign is -
-let q = 3;
-let w = -7;
-let r = 2;
-if (q < w && q < r) {
-  console.log(q);
-} else if (w < q && w < r) {
-  console.log(w);
-} else if (r < w && r < q) {
-  console.log(r);
-}
+// let q = 3;
+// let w = -7;
+// let r = 2;
+// if (q < w && q < r) {
+//   console.log(q);
+// } else if (w < q && w < r) {
+//   console.log(w);
+// // } else if (r < w && r < q) {
+// //   console.log(r);
+// }
 // / Exercise 5
 // Choose the correct comparison operator to console.log true, when x is greater than y.
 // Choose the correct comparison operator to console.log false, when x is equal to y.
 // Choose the correct comparison operator to console.log not sure, when x is NOT equal to y.
-let x = 5;
-let y = 3;
-if (x > y) {
-  console.log(true);
-} else if ((x = y)) {
-//   console.log(false);
-// } else if (x !== y) {
-//   console.log("not");
-// }
-// The Grade Assigner
+// let x = 5;
+// let y = 3;
+// if (x > y) {
+//   console.log(true);
+// } else if ((x = y)) {
+// //   console.log(false);
+// // } else if (x !== y) {
+// //   console.log("not");
+// // }
+// // The Grade Assigner
 // - Write a if/else statement that:
 //   - takes 1 variable, a number score.
 //   - returns a grade for the score, either "A", "B", "C", "D", or "F".
 // - Call that if/else statement for a few different scores and log the result to make sure it works.
-const A = prompt("enter a number");
-const B = prompt("enter a number");
-const C = prompt("enter a number");
-const D = prompt("enter a number");
-const F = prompt("enter a number");
-if (A > 90 && A < 100) {
-  console.log("A");
-} else if (B >= 80 && B < 90) {
-  console.log("B");
-} else if (C >= 70 && C < 80) {
-  console.log("C");
-} else if (D >= 70 && D < 80) {
-  console.log("D");
-} else if (F >= 0 && F < 60) {
-  console.log("F");
-}
-Write If statement that takes string
-    if string length is more than 10 print the string  has more than 10 characters
-     if string length is more than 5 return the string has more than 5 characters
-//       if string length is less than 1 return the string has nothing
-//       if string length is equal to 1 return the string has 1 character
-let length = 1;
+// const A = prompt("enter a number");
+// const B = prompt("enter a number");
+// const C = prompt("enter a number");
+// const D = prompt("enter a number");
+// const F = prompt("enter a number");
+// if (A > 90 && A < 100) {
+//   console.log("A");
+// } else if (B >= 80 && B < 90) {
+//   console.log("B");
+// } else if (C >= 70 && C < 80) {
+//   console.log("C");
+// } else if (D >= 70 && D < 80) {
+//   console.log("D");
+// } else if (F >= 0 && F < 60) {
+//   console.log("F");
+// }
+// Write If statement that takes string
+//     if string length is more than 10 print the string  has more than 10 characters
+//      if string length is more than 5 return the string has more than 5 characters
+// //       if string length is less than 1 return the string has nothing
+// //       if string length is equal to 1 return the string has 1 character
+// let length = 1;
 
-if (length > 10) {
-  console.log("10 characters");
-} else if (length > 5) {
-  console.log("10 characters");
-} else if (length < 1) {
-  console.log("nothing");
-} else if ((length = 1)) {
-  console.log("1 characters");
-}
+// if (length > 10) {
+//   console.log("10 characters");
+// } else if (length > 5) {
+//   console.log("10 characters");
+// } else if (length < 1) {
+//   console.log("nothing");
+// } else if ((length = 1)) {
+//   console.log("1 characters");
+// }
+//  3) Write conditional expressions to satisfy the following safety rules:
 
- 3) Write conditional expressions to satisfy the following safety rules:
+//  a) If crewStatus is true, print "Crew Ready" else print "Crew Not Ready".
+let crewstatus=true;
+if(crewstatus=true){console.log("Crew ready");}else if(crewstatus=false||other){console.log("crew not ready");}
+//  b) If computerStatusCode is 200, print "Please stand by. Computer is rebooting." Else if computerStatusCode is 400, print "Success! Computer online." Else print "ALERT: Computer offline!"
+let computerStatusCode=400;
+if(computerStatusCode==200){console.log("Please stand by. Computer is rebooting");}
+else if(computerStatusCode==400){console.log("Success! Computer online.");}
+//  c) If shuttle Speed is > 17,500, print "ALERT: Escape velocity reached!" 
+// Else if shuttleSpeed is < 8000, print "ALERT: Cannot maintain orbit!" Else print "Stable speed".
+let shuttleSpeed = 4000;
+if(shuttleSpeed > 17500){console.log( "ALERT: Escape velocity reached!");} 
+else if(shuttleSpeed< 8000){console.log( "ALERT: Cannot maintain orbit!");}else{console.log("Stable speed");}
+// Write If statement that takes number checks if the number is odd or even
+//     if odd return "the number is odd"
 
- a) If crewStatus is true, print "Crew Ready" else print "Crew Not Ready".
+//     if even return "the number is even"
 
- b) If computerStatusCode is 200, print "Please stand by. Computer is rebooting." Else if computerStatusCode is 400, print "Success! Computer online." Else print "ALERT: Computer offline!"
+// Exercise 8 j
 
- c) If shuttleSpeed is > 17,500, print "ALERT: Escape velocity reached!" Else if shuttleSpeed is < 8000, print "ALERT: Cannot maintain orbit!" Else print "Stable speed".
+// Write if statement that takes role and return each role with greeting
 
-Write If statement that takes number checks if the number is odd or even
+//     if role is 'Employee' return 'Hello'
 
-    if odd return "the number is odd"
+//     if role is 'Director' return 'Greetings'
 
-    if even return "the number is even"
+//     if role is '' return 'Please provide role'
 
-Exercise 8 j
+//     else return 'Hi'
 
-Write if statement that takes role and return each role with greeting
+// Exercise 8 j
 
-    if role is 'Employee' return 'Hello'
+// 0. Гончигсумлай хоолны газар оров. Орсон хоолны газар нь 5000₮ - 30000₮ хооронд 15% нэмж төлдөг,
 
-    if role is 'Director' return 'Greetings'
+// бусад үед 20% - ийг нэмж төлдөг бол. Эдгээр тохиолдолуудад нийт хэдийг төлөхийг олно уу.
 
-    if role is '' return 'Please provide role'
-
-    else return 'Hi'
-
-Exercise 8 j
-
-0. Гончигсумлай хоолны газар оров. Орсон хоолны газар нь 5000₮ - 30000₮ хооронд 15% нэмж төлдөг,
-
-бусад үед 20% - ийг нэмж төлдөг бол. Эдгээр тохиолдолуудад нийт хэдийг төлөхийг олно уу.
-
-Эдгээр тохиолдолуудад тус бүр хэдийг төлөх вэ? 3000₮, 27500₮, 100000₮.
+// Эдгээр тохиолдолуудад тус бүр хэдийг төлөх вэ? 3000₮, 27500₮, 100000₮.
